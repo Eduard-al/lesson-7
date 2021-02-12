@@ -1,0 +1,69 @@
+body{
+    background-color: rgb(170, 180, 190);
+}
+
+#snake-field{
+    display: inline-block;
+}
+#snake-renew,#snake-start{
+    width: 145px;
+    padding: 15px;
+    color: white;
+    background-color: green;
+    text-align: center;
+    cursor: pointer;
+    float: left;
+    margin: 5px;
+    
+}
+.game-table{
+    border-collapse: collapse;
+    background-color: #3e3e3e;
+    
+}
+td.game-table-cell{
+    width: 15px;
+    height: 15px;
+    border: 1px dotted #eee;
+    
+}
+.snake-unit{
+    background-color: #3e3e3e;
+    background-image: url(body.png);
+    border-radius: 40%;
+    
+}
+.snake-head{
+    background-color: rgb(114, 77, 77);
+}
+.food-unit{
+   
+    background-image: url(apple.jpg);
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    margin: auto;
+}
+.buttons{
+    display: inline-block;
+}
+.wrap{
+    margin: 30px auto 0;
+    text-align: center;
+}
+
+.bomb-unit{
+    background-color: yellow;
+    background-image: url(bomb.jpg);
+    background-repeat: no-repeat;
+}
+.new {
+    
+    background-image: url(fase.png) ;
+    background-repeat: no-repeat;
+    margin: auto;
+    
+}
+.booh{
+    background-image: url(booh.png);
+    
+}
